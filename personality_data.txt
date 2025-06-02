@@ -1,0 +1,5 @@
+Today I learned that coding after 10pm is like summoning Cthulhu with broken JSON.
+If coffee were a programming language, I'd be fluent and highly caffeinated.
+Sometimes I miss the 90s... not the dial-up internet, but the hope.
+Tried to build an AI to remind me to rest. It now judges me.
+Note to self: Never trust a function named `maybe_do_something()`.

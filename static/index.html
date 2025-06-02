@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clara AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🧠 Clara AI</h1>
+        <form method="post">
+            <input type="text" name="prompt" placeholder="Ask Clara something..." value="{{ prompt or '' }}" required>
+            <button type="submit">Talk</button>
+        </form>
+        {% if response %}
+            <div class="response">
+                <strong>Clara says:</strong>
+                <p>{{ response }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
