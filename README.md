@@ -27,3 +27,61 @@ Ask questions, get smart answers, all without sending a single byte to the cloud
 ```bash
 git clone https://github.com/rishabmadan/AI-Brain.git
 cd AI-Brain
+
+### 2\. Set Up Python Environment
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   bashCopyEditpip install -r requirements.txt   `
+
+> ✅ Python 3.10+ recommended
+
+### 3\. Add Your Mistral Model
+
+*   Download the .gguf model from Hugging Face
+    
+*   Create a folder named models/ in the project root
+    
+*   Place your GGUF file inside it
+    
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   CopyEdit📁 upload_ai_brain   ┣ 📁 models   ┃ ┗ 📄 mistral-model.gguf   `
+
+### 4\. Run the App
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   bashCopyEdituvicorn app:app --reload   `
+
+> Visit [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser. Enjoy your brain 🧠
+
+🧭 Project Structure
+--------------------
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   graphqlCopyEditupload_ai_brain/  ├── app.py               # FastAPI app  ├── model.py             # Mistral inference logic  ├── requirements.txt     # Dependencies  ├── models/              # Your local GGUF model goes here  └── README.md            # This file   `
+
+🎯 Roadmap
+----------
+
+*   📄 File-based question support (PDFs, images)
+    
+*   🧠 Memory & context retention
+    
+*   🖼️ GUI version (Tauri or web)
+    
+*   📱 App packaging (EXE, DMG, APK)
+    
+
+🤝 Contributing
+---------------
+
+Pull requests are welcome! If you’ve got cool ideas, issues, or UX suggestions — open them up.
+
+📫 Contact
+----------
+
+*   Email: rishabh.madan2002@gmail.com
+    
+*   GitHub: [@rishabmadan](https://github.com/rishabmadan)
+    
+
+💬 Final Thought
+----------------
+
+> “This isn’t just an app. It’s your second brain — offline, private, and yours alone.”– Future You
